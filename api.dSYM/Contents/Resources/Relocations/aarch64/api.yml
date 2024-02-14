@@ -1,0 +1,12 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/louiscavecchi/Desktop/apiC/api'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _init_openssl, symObjAddr: 0x0, symBinAddr: 0x100003820, symSize: 0x38 }
+  - { offsetInCU: 0x83, offset: 0x83, size: 0x8, addend: 0x0, symName: _init_openssl, symObjAddr: 0x0, symBinAddr: 0x100003820, symSize: 0x38 }
+  - { offsetInCU: 0x98, offset: 0x98, size: 0x8, addend: 0x0, symName: _cleanup_openssl, symObjAddr: 0x38, symBinAddr: 0x100003858, symSize: 0x18 }
+  - { offsetInCU: 0xAD, offset: 0xAD, size: 0x8, addend: 0x0, symName: _create_context, symObjAddr: 0x50, symBinAddr: 0x100003870, symSize: 0x68 }
+  - { offsetInCU: 0xE3, offset: 0xE3, size: 0x8, addend: 0x0, symName: _configure_context, symObjAddr: 0xB8, symBinAddr: 0x1000038D8, symSize: 0x94 }
+  - { offsetInCU: 0x107, offset: 0x107, size: 0x8, addend: 0x0, symName: _handle_client_request, symObjAddr: 0x14C, symBinAddr: 0x10000396C, symSize: 0x1A0 }
+  - { offsetInCU: 0x1AF, offset: 0x1AF, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x2EC, symBinAddr: 0x100003B0C, symSize: 0x214 }
+...
